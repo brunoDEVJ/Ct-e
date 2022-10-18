@@ -12,71 +12,51 @@
 </head>
 
 <style>
-    img {
-        height: 70%;
+    .fundo {
+        position: absolute;
+        z-index: -1;
+        width: 55%;
+        height: 100%;
+        opacity: 0.9;
+        margin-left: 650px;
+    }
+    
+    .img3 {
+        height: 80vh;
+        width: 35vw;
+    }
+    .but {
+        margin-top: 5px;
+        margin-left: 23%;
+        width: 80%;
+    }
+    .foter{
+        padding-top: 70px;
+        
     }
 </style>
 
 <body>
-
-    <body>
-        <div class="container py-3">
-            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-                <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-                    <span class="fs-4">SERVIÇOS CT-e</span>
-                </a>
-
-                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                    <a class="me-3 py-2 text-dark text-decoration-none" href="https://api.whatsapp.com/send?phone=553187257300&text=Bom%20dia%2C%20tudo%20bem%3F">Contato</a>
-                </nav>
-            </div>
+    <div class="">
+        <img class="fundo " src="./1.png" alt="">
+    <div class="container pt-4">
             <main>
                 <div class="row row-cols-md-3 mb-3 text-center justify-content-start">
-                    <div class="row mb-3 ">
-                        <img src="./2.png" alt="img3">
-                    </div>
-                    <div class="col">
-                        
-                        <div class="card mb-4 rounded-3 shadow-sm">
-                            <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">Consultar Plano CT-e</h4>
-                            </div>
-                            <div class="card-body">
-                                CT-e é como um documento de existência exclusivamente digital, emitido e armazenado
-                                eletronicamente, com o intuito de documentar uma prestação de serviços de
-                                transportes, cuja
-                                validade jurídica é garantida pela assinatura digital do emitente e a Autorização de
-                                Uso
-                                fornecida pela administração
-                                <a href="https://api.whatsapp.com/send?phone=553187257300&text=Bom%20dia%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20CT-e!" target="_blank">
-
-                                    <button type="button" class="w-100 btn btn-lg btn-outline-success"><i
-                                            class="fa-brands fa-whatsapp"></i></button>
-                                </a>
+                        <div class="col">
+                            <div class="mb-4 rounded-3 shadow-sm">
+                             <img class="img3" src="./tex.png" alt="">
+                             <a class="pb-3" href="https://api.whatsapp.com/send?phone=553187257300&text=Bom%20dia%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20CT-e!" target="_blank">
+                                <button type="button" class="d-block but btn btn-lg btn-outline-primary"><i
+                                        class="fa-brands fa-whatsapp"></i></button>
+                            </a>
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-3 ">
-                        <img src="./3.png" alt="img3">
-                    </div>
                 </div>
         </div>
-
         </main>
-        <footer class="border-top">
-            <div class="row text-center">
-                <div class="col-12 col-md">
-                    <small class="d-block mb-3 text-muted">&copy; Desenvolvido por Vltech</small>
-                </div>
-            </div>
-        </footer>
-        </div>
-
-
-
-
-
-    </body>
+      
+    </div>
 </body>
 
 </html>
