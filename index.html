@@ -11,41 +11,72 @@
     <script src="https://kit.fontawesome.com/7d4db61e61.js" crossorigin="anonymous"></script>
 </head>
 <style>
+    
+    * {
+        font-family: 'open sans extra bold';
+
+    }
+
     body {
         margin: 0;
         padding: 0;
     }
 
-    .container {
+    .containerr {
         display: flex;
         margin: 0;
         padding: 0;
+        
     }
 
     .esquerda {
+        margin-top: 5%;
+        padding-left: 7%;
+        padding-right: 7%;
+        text-align: center;
         width: 50vw;
         height: 84vh;
+        box-sizing: border-box;
     }
 
     .direita {
         width: 50vw;
         height: 100vh;
     }
-   
-   .buttext {
-    font-size: 1.5em;
-   }
+
+    .buttext {
+        font-size: 1.5em;
+    }
+
+    .fz {
+        font-size: 1.3em;
+    }
+    .fa-color{
+        color: #0d6efd
+    }
 </style>
 
 <body>
-    <div class="container">
-        <div>
-            <img class="esquerda" src="tex.png" alt="">
+    <div class="containerr">
+        <div class="esquerda">
+            <h1 class="titulo">PARA SUA FROTA</h1>
+            <span class="text-muted">MAS REALMENTE VALE USAR CT-E</span>
+            <p class="fz">
+                É interessante observar que a sociedade
+                também é beneficiada com o uso de
+                documentos eletrônicos, em pespecial do CT-e.
+                Essa é uma observação importante, afinal,
+                uma questão fundamental para uma empresa
+                se manter no mercado é o índice de satisfação
+                do consumidor final e sua reputação no
+                mercado, não é mesmo?
+            </p>
+            <i class="fa-solid fa-location-dot fa-4x mb-4 fa-color"></i>
             <a class="pb-3"
                 href="https://api.whatsapp.com/send?phone=553187257300&text=Bom%20dia%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20CT-e!"
-                target="_blank"> 
+                target="_blank">
                 <button type="button" class="w-100  btn btn-sm btn-outline-primary">
-                    <span class="buttext">Saiba Mais </span>  
+                    <span class="buttext">Saiba Mais </span>
                     <i class="fa-brands fa-whatsapp fa-2x"></i>
                 </button>
             </a>
