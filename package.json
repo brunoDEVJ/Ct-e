@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "http-server": "^14.1.1"
-  }
+  },
+  "name": "ct-e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server -p 8003"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoDEVJ/Ct-e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoDEVJ/Ct-e/issues"
+  },
+  "homepage": "https://github.com/brunoDEVJ/Ct-e#readme",
+  "description": ""
 }
